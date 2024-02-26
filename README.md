@@ -32,7 +32,7 @@
   * [*Severity Regression*](https://github.com/omars1234/Insurance_Analysis/blob/3368d590568e6e27b8103748e6750329f86cbf2b/Notebooks/Data_Regression/6_DataModelling_SeverityFeature.ipynb)
 
 
-*3.* [*requirements file*]()
+*3.* [*requirements file*](https://github.com/omars1234/Insurance_Analysis/blob/a976a21f562fd1de5777d08115f8b3a5b0e840aa/requirements.txt)
 
 *4.* [*App*]()
 
