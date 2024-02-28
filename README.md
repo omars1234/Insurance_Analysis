@@ -31,8 +31,10 @@
   * [*Frequency Regression*](https://github.com/omars1234/Insurance_Analysis/blob/3368d590568e6e27b8103748e6750329f86cbf2b/Notebooks/Data_Regression/5_DataModelling_FrequencyFeature.ipynb)
   * [*Severity Regression*](https://github.com/omars1234/Insurance_Analysis/blob/3368d590568e6e27b8103748e6750329f86cbf2b/Notebooks/Data_Regression/6_DataModelling_SeverityFeature.ipynb)
 
+*3.* [*Final Models*](https://github.com/omars1234/Insurance_Analysis/tree/1baa6dc1914a9a8f392b790f98abcf860c008e6a/final_models)
 
-*3.* [*requirements file*](https://github.com/omars1234/Insurance_Analysis/blob/a976a21f562fd1de5777d08115f8b3a5b0e840aa/requirements.txt)
 
-*4.* [*App*]()
+*4.* [*requirements file*](https://github.com/omars1234/Insurance_Analysis/blob/a976a21f562fd1de5777d08115f8b3a5b0e840aa/requirements.txt)
+
+*5.* [*App*]()
 
