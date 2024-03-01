@@ -24,7 +24,7 @@
   * [*Age category Classification*](https://github.com/omars1234/Insurance_Analysis/blob/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Classification/agecat_classifier_param.ipynb)
   * [*Area category Classification*](https://github.com/omars1234/Insurance_Analysis/blob/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Classification/area_classifier_param.ipynb)
   * [*Gender category Classification*](https://github.com/omars1234/Insurance_Analysis/blob/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Classification/gender_classifier_param.ipynb)
-  * [*Number of Claims category Classification*](https://github.com/omars1234/Insurance_Analysis/blob/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Classification/numberofclaims_classifier_param.ipynb)
+  * [*Number of Claims category Classification*](Notebooks/Data_Classification/numberofclaims_classifier_param.ipynb)
   * [*Vehicle Body category Classification*](https://github.com/omars1234/Insurance_Analysis/blob/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Classification/veh_body_classifier_param.ipynb)
   * [*Vehicle age category Classification*](https://github.com/omars1234/Insurance_Analysis/blob/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Classification/vehicleage_classifier_param.ipynb)
 * [*Data Regression files*](https://github.com/omars1234/Insurance_Analysis/tree/bdbd94eb15e1af80fb3d155ad792c2c45f226949/Notebooks/Data_Regression)
