@@ -7,8 +7,9 @@ from predict_page import predict_frequency
 from predict_veh_body import predict_Veh_Body
 from predict_severity import predict_severity
 from predict_veh_age import predict_vehicle_age
+import cv2
  
-
+st.title("Motor Insurance Prediction")
 select_to_predict=st.sidebar.selectbox("Select Target Feature",["Severity","Frequency","Gender-Male or Female",
                                                                 "Age Category","Area","Number Of Claims","Vehicle Body","Vehicle Age"])
 

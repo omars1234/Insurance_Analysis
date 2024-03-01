@@ -8,12 +8,16 @@ from sklearn.ensemble import (AdaBoostRegressor,BaggingClassifier,RandomForestCl
 from sklearn.tree import DecisionTreeRegressor
 from utilis import (gender_string_to_number,area_string_to_number,agecat_string_to_number,veh_age_string_to_number,
                     veh_body_string_to_number,numclaims_string_to_number)
+import cv2
 
 Frequency_model=joblib.load(open("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/final_models/Frequency_final_model_joblib.joblib","rb")) 
 
 def predict_frequency():
-    st.title("Motor Insurance Prediction")
     st.subheader("Target Feature To Predict : Frequency")
+    AreaImportanceGraph=cv2.imread("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/App/Feature_importance_Graph/Frequency_featureImportanc.png")
+    st.sidebar.image(AreaImportanceGraph)
+    df = pd.read_pickle("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/App/Feature_importance_Table/FrequencyImportanceTabel.pkl")
+    st.sidebar.dataframe(df)
 
     veh_value=st.number_input("veh_values",0.0,34.560000)
 
@@ -61,7 +65,7 @@ def predict_frequency():
     
     
 
-         st.write(f"the Frequency is {make_prediction}")
+         st.write(f"The Expected Frequency is {make_prediction}")
 
 
 

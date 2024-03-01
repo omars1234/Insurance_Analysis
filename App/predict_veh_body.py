@@ -7,13 +7,17 @@ from xgboost import XGBRFRegressor,XGBClassifier
 from sklearn.ensemble import (AdaBoostRegressor,BaggingClassifier,RandomForestClassifier)
 from sklearn.tree import DecisionTreeRegressor
 from utilis import (gender_string_to_number,area_string_to_number,agecat_string_to_number,veh_age_string_to_number,
-                    veh_body_string_to_number,numclaims_string_to_number)
+                    numclaims_string_to_number)
+import cv2
 
 veh_body_model=pickle.load(open("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/final_models/veh_body_prediction_model.pkl","rb")) 
 
 def predict_Veh_Body():
-    st.title("Motor Insurance Prediction")
     st.subheader("Target Feature To Predict : Vehicle Body")
+    ImportanceGraph=cv2.imread("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/App/Feature_importance_Graph/Veh_Body_featureImportanc.png")
+    st.sidebar.image(ImportanceGraph)
+    df = pd.read_pickle("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/App/Feature_importance_Table/Veh_BodyImportanceTabel.pkl")
+    st.sidebar.dataframe(df)
 
     veh_value=st.number_input("veh_values",0.0,34.560000)
 
@@ -56,7 +60,20 @@ def predict_Veh_Body():
             area_string_to_number(area),
             agecat_string_to_number(agecat),
             severity,
-            frequincy]])[0]  
+            frequincy]])[0]
+         if make_prediction==9 :make_prediction= 'SEDAN'
+         elif make_prediction==3 :make_prediction='HBACK'
+         elif make_prediction==10 :make_prediction='STNWG'
+         elif make_prediction==11 :make_prediction='TRUCK'
+         elif make_prediction==4 :make_prediction='HDTOP'
+         elif make_prediction==12 :make_prediction='UTE'
+         elif make_prediction==2 :make_prediction='COUPE'
+         elif make_prediction==0 :make_prediction='BUS'
+         elif make_prediction==7 :make_prediction='PANVN'
+         elif make_prediction==6 :make_prediction='MIBUS'
+         elif make_prediction==8 :make_prediction='RDSTR'
+         elif make_prediction==1 :make_prediction='CONVT'
+         else :make_prediction='MCARA'
 
          st.write(f"The Expected Vehicle Body is {make_prediction}")
 

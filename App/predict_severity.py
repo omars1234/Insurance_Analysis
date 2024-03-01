@@ -8,12 +8,16 @@ from sklearn.ensemble import (AdaBoostRegressor,BaggingClassifier,RandomForestCl
 from sklearn.tree import DecisionTreeRegressor
 from utilis import (gender_string_to_number,area_string_to_number,agecat_string_to_number,veh_age_string_to_number,
                     veh_body_string_to_number,numclaims_string_to_number)
+import cv2
 
 severity_model=pickle.load(open("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/final_models/Severity_final_model.pkl","rb")) 
 
 def predict_severity():
-    st.title("Motor Insurance Prediction")
     st.subheader("Target Feature To Predict : Severity")
+    AreaImportanceGraph=cv2.imread("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/App/Feature_importance_Graph/Severity_featureImportanc.png")
+    st.sidebar.image(AreaImportanceGraph)
+    df = pd.read_pickle("C:/Users/Omar/Desktop/Omar_Files/Python_Analysis/Auto_Insurance/App/Feature_importance_Table/SeverityImportanceTabel.pkl")
+    st.sidebar.dataframe(df)
 
     veh_value=st.number_input("veh_values",0.0,34.560000)
 
@@ -61,7 +65,7 @@ def predict_severity():
     
     
 
-         st.write(f"the Severity is {make_prediction}")
+         st.write(f"The Expected Severity is {np.round(make_prediction,2)}")
 
 
 
