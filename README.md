@@ -19,7 +19,6 @@
   * *Data cleaning*
   * *quick EDA*
   * *Feature Selection*
-  * *Stats In Depth-Using R-Programming Language*
 
 * *Data Classification files*
 
@@ -43,4 +42,7 @@
 ## *4.* *requirements file*
 
 ## *5.* *App*
+*  *Feature_importance_Graph*
+*  *Feature_importance_Table*
+
 
