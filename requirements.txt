@@ -14,3 +14,4 @@ xgboost
 tqdm
 plotclassification
 yellowbrick
+ipykernel
