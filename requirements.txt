@@ -10,3 +10,7 @@ plotnine
 scipy
 boruta
 streamlit
+xgboost
+tqdm
+plotclassification
+yellowbrick
