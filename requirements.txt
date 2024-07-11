@@ -15,3 +15,4 @@ tqdm
 plotclassification
 yellowbrick
 ipykernel
+imblearn
