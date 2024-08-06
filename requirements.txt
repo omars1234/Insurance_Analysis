@@ -16,3 +16,4 @@ plotclassification
 yellowbrick
 ipykernel
 imblearn
+nbformat
