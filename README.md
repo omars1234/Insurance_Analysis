@@ -256,7 +256,7 @@ search_spaces ={
 
 ----------------------------------------
 
- ### *age category Cost as Classidication Target ML :*
+ ### *age category as Classidication Target ML :*
 
  * *The best model model was XGBRFRegressor() with the below parameters :*
 
@@ -277,7 +277,72 @@ search_spaces ={
 
  ----------------------------------------
 
- 
+ ### *area Category as Classidication Target ML :*
+
+ * *The best model model was XGBRFRegressor() with the below parameters :*
+
+```bash
+{   'colsample_bynode': np.float64(0.9129237570607415),
+    'colsample_bytree': np.float64(0.9882408165556009),
+    'learning_rate': np.float64(0.26863099236411175),
+    'max_depth': np.int64(4), 'n_estimators': np.int64(3),
+    'num_parallel_tree': np.int64(0),
+    'reg_alpha': np.float64(1.0),
+    'reg_lambda': np.float64(0.0),
+    'subsample': np.float64(0.9132688681733999)
+}
+```
+* *The Model Features Importance Graphs :*
+
+ ![Logo](outcomes/featuresImportanceGraphs/area_featureImportanc.png)
+
+ ----------------------------------------
+
+ ### *gender Category as Classidication Target ML :*
+
+ * *The best model model was XGBRFRegressor() with the below parameters :*
+
+```bash
+{   'colsample_bynode': np.float64(0.8714994123389928),
+    'colsample_bytree': np.float64(0.793153125539062),
+    'learning_rate': np.float64(0.691645029296458),
+    'max_depth': np.int64(2),
+    'n_estimators': np.int64(1),
+    'reg_alpha': np.float64(1.0),
+    'reg_lambda': np.float64(1.0),
+    'subsample': np.float64(0.5030310997926619)
+}
+```
+* *The Model Features Importance Graphs :*
+
+ ![Logo](outcomes/featuresImportanceGraphs/gender_featureImportanc.png)
+
+ ----------------------------------------
+
+ ### *veh body Category as Classidication Target ML :*
+
+ * *The best model model was XGBRFRegressor() with the below parameters :*
+
+```bash
+{   'colsample_bynode': np.float64(0.8242226665175306),
+    'colsample_bytree': np.float64(0.8029099521062315),
+    'learning_rate': np.float64(0.25726849104466526),
+    'max_depth': np.int64(4),
+    'n_estimators': np.int64(1),
+    'num_parallel_tree': np.int64(0),
+    'reg_alpha': np.float64(1.0),
+    'reg_lambda': np.float64(1.0),
+    'subsample': np.float64(0.7181215732378148)
+}
+```
+* *The Model Features Importance Graphs :*
+
+ ![Logo](outcomes/featuresImportanceGraphs/veh_body_featureImportanc.png)
+
+ ----------------------------------------
+
+
+
 
 
 
