@@ -256,7 +256,7 @@ search_spaces ={
 
 ----------------------------------------
 
- ### *age category as Classidication Target ML :*
+ ### *age category as Classification Target ML :*
 
  * *The best model model was XGBRFRegressor() with the below parameters :*
 
@@ -277,7 +277,7 @@ search_spaces ={
 
  ----------------------------------------
 
- ### *area Category as Classidication Target ML :*
+ ### *area Category as Classification Target ML :*
 
  * *The best model model was XGBRFRegressor() with the below parameters :*
 
@@ -298,7 +298,7 @@ search_spaces ={
 
  ----------------------------------------
 
- ### *gender Category as Classidication Target ML :*
+ ### *gender Category as Classification Target ML :*
 
  * *The best model model was XGBRFRegressor() with the below parameters :*
 
@@ -319,7 +319,7 @@ search_spaces ={
 
  ----------------------------------------
 
- ### *veh body Category as Classidication Target ML :*
+ ### *veh body Category as Classification Target ML :*
 
  * *The best model model was XGBRFRegressor() with the below parameters :*
 
