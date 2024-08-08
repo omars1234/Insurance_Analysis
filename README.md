@@ -45,45 +45,71 @@ graphviz
 hyperopt
 ```
 
-
-# *Project Map*
-
-## *1.* *Data_Sets*
-
-* *original Data set*
-* *cleaned Data set*
+## *Data*  
+*The dataset used for this project contains AutoMobile Insurance data. It includes the following columns:*
 
 
-## *2.* *NotBooks*
+*veh_value : The AutoMobile sum insured*
 
-* *Data Analysis files*
-  * *Data Importing*
-  * *Data cleaning*
-  * *quick EDA*
-  * *Feature Selection*
+*exposure : earned exposures*
 
-* *Data Classification files*
+*clm : claims Incurrence  0:No ,1:yes*
 
-  * *Age category Classification*
-  * *Area category Classification*
-  * *Gender category Classification*
+*numclaims : number of claims frequency*
 
-  * *Number of Claims category Classification*
+*claimcst0 :  Incurred claims cost*
 
-  * *Vehicle Body category Classification*
-  * *Vehicle age category Classification*
+*veh_body : BUS,SEDAN,COUPE,HBACK...etc.*
 
-* *Data Regression files*
+*veh_age : 1,2,3,4*
 
-  * *Frequency Regression*
-  * *Severity Regression*
+*gender : F : Female , M : male*
 
-## *3.* *Final Models*
+*area : A,B,C,D,E,F*
+
+*agecat : 1,2,3,4,5,6*
 
 
-## *4.* *requirements file*
+## *Usage*
 
-## *5.* *App*
-*  *Feature_importance_Graph*
-*  *Feature_importance_Table*
+*Clone the repository:*
+
+
+```bash
+https://github.com/omars1234/Insurance_Analysis.git
+```
+
+## *Project Structure*
+
+
+```bash
+AUTO_INSURANCE/
+├── Data/
+│   └── data_car.csv
+├── Notebooks/
+│   ├── Data_Analysis
+|          ├── 1_DataImporting.ipynb
+|          ├── 2_EDA.ipynb
+|   ├── Data_Classification
+|          ├── agecat_classification.ipynb
+|          ├── area_classification.ipynb
+|          ├── gender_classification.ipynb
+|          ├── veh_body_classification.ipynb
+|   ├── Data_Regression
+|          ├── Claims_Regression.ipynb
+|   
+├── outcomes/
+|   ├── bestModels
+|   ├── bestParams
+|   ├── featuresImportanceGraphs
+|   ├── MulticlassROCGraphs
+|   ├── ROCcurveGraphs
+|
+|
+├── README.md
+├── requiremnts.txt
+```
+
+## *Results*
+
 
