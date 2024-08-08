@@ -1,7 +1,49 @@
-# *Motor Insurance Analysis*
+# *Auto Mobile Insurance MachineLearning notebooks Using Python Language*
+
+👩‍💻 I'm currently working on...
 
 
-*In this Project , will will try to conduct data analysis on motor insurance data in order to get insights that help the descion making*
+## *Author  [Omar Soub](https://github.com/omars1234)*
+
+## *Overview*
+
+
+*In this Project ,we will use Python Language and find the best Machine Learning Models with hypert parameter tuning for classificationa and regression problems*
+
+## *Table of Contents*
+
+*  *Installation*  
+*  *Data*  
+*  *Usage*  
+*  *Project Structure*  
+*  *Results*  
+
+## *Installation*  
+*To run this project, you need to have Python installed on your machine. Additionally, install the required libraries by running the following libraries on requirements.txt file:*
+
+```bash
+pandas
+numpy
+matplotlib
+seaborn
+datetime
+plotly
+statsmodels
+scikit-learn
+plotnine
+scipy
+boruta
+streamlit
+xgboost
+tqdm
+plotclassification
+yellowbrick
+ipykernel
+imblearn
+nbformat
+graphviz
+hyperopt
+```
 
 
 # *Project Map*

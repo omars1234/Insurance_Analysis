@@ -17,3 +17,5 @@ yellowbrick
 ipykernel
 imblearn
 nbformat
+graphviz
+hyperopt
