@@ -103,8 +103,10 @@ AUTO_INSURANCE/
 |   ├── bestModels
 |   ├── bestParams
 |   ├── featuresImportanceGraphs
-|   ├── MulticlassROCGraphs
+|   ├── ConfusionMatrixGraphs
 |   ├── ROCcurveGraphs
+|   ├── modelsEvaluationsGraphs
+|   ├── modelsEvaluations
 |
 |
 ├── README.md
@@ -233,86 +235,26 @@ search_spaces ={
 
 ## *Results*
 
-### *Claims Cost as Regression Target ML :*
-
-* *The best model model was XGBRFRegressor() with the below parameters :*
-
-```bash
-{   'colsample_bynode': np.float64(0.6791101907602755),  
-    'colsample_bytree': np.float64(0.7584445299347417),  
-    'learning_rate': np.float64(0.8512045639269507),  
-    'max_depth': np.int64(5),
-    'n_estimators': np.int64(5),
-    'num_parallel_tree': np.int64(1),
-    'reg_alpha': np.float64(2.0),
-    'reg_lambda': np.float64(2.0),
-    'subsample': np.float64(0.5533220820592234)  
-}
-```
-* *The Model Features Importance Graphs :*
-
- ![Logo](outcomes/featuresImportanceGraphs/claims_featureImportanc.png)
-
-
-----------------------------------------
-
- ### *age category as Classification Target ML :*
+### *gender Category as Classification Target ML :*
 
  * *The best model model was XGBRFRegressor() with the below parameters :*
 
-```bash
-{   'colsample_bynode': np.float64(0.7298327394547517),
-    'colsample_bytree': np.float64(0.6566584429466105),
-    'learning_rate': np.float64(0.6486512992814588),
-    'max_depth': np.int64(5),
-    'n_estimators': np.int64(4),
-    'reg_alpha': np.float64(1.0),
-    'reg_lambda': np.float64(1.0),
-    'subsample': np.float64(0.8612804342189735)
-}
-```
-* *The Model Features Importance Graphs :*
 
- ![Logo](outcomes/featuresImportanceGraphs/agecat_featureImportanc.png)
+ * *The model Evaluations Graph :*
 
- ----------------------------------------
+ ![Logo](outcomes/modelsEvaluationsGraphs/gender_EvaluationsGraph.png)
 
- ### *area Category as Classification Target ML :*
 
- * *The best model model was XGBRFRegressor() with the below parameters :*
+  * *The model Confusin Matrix :*
 
-```bash
-{   'colsample_bynode': np.float64(0.9129237570607415),
-    'colsample_bytree': np.float64(0.9882408165556009),
-    'learning_rate': np.float64(0.26863099236411175),
-    'max_depth': np.int64(4), 'n_estimators': np.int64(3),
-    'num_parallel_tree': np.int64(0),
-    'reg_alpha': np.float64(1.0),
-    'reg_lambda': np.float64(0.0),
-    'subsample': np.float64(0.9132688681733999)
-}
-```
-* *The Model Features Importance Graphs :*
+ ![Logo](outcomes/confusionMatrixGraphs/gender_confusion_matrixPlot.png)
 
- ![Logo](outcomes/featuresImportanceGraphs/area_featureImportanc.png)
 
- ----------------------------------------
+ * *The Model ROC curve Graphs :*
 
- ### *gender Category as Classification Target ML :*
+ ![Logo](outcomes/ROCcurveGraphs/gender_ROCcurveGraphs.png)
 
- * *The best model model was XGBRFRegressor() with the below parameters :*
 
-```bash
-{   'colsample_bynode': np.float64(0.8714994123389928),
-    'colsample_bytree': np.float64(0.793153125539062),
-    'learning_rate': np.float64(0.691645029296458),
-    'max_depth': np.int64(2),
-    'n_estimators': np.int64(1),
-    'reg_alpha': np.float64(1.0),
-    'reg_lambda': np.float64(1.0),
-    'subsample': np.float64(0.5030310997926619)
-}
-```
 * *The Model Features Importance Graphs :*
 
  ![Logo](outcomes/featuresImportanceGraphs/gender_featureImportanc.png)
