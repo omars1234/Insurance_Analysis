@@ -235,14 +235,36 @@ search_spaces ={
 
 ## *Results*
 
+### *claims feature  as Regression Target ML :*
+
+* *The best model was AdaBoostRegressor() with the base parameters*
+```bash
+"learning_rate": 0.4465183341501904,
+"n_estimators": "3"
+```
+
+ * *The model Evaluations Graph :*
+
+ ![Logo](outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png)
+
+
+ * *The Model Features Importance Graphs :*
+
+ ![Logo](outcomes/featuresImportanceGraphs/claims_featureImportanc.png)
+
+
+---------------------------------------
+
 ### *gender Category as Classification Target ML :*
 
- * *The best model model was XGBRFRegressor() with the below parameters :*
+* *The best model was XGBRFRegressor() with the base parameters*
 
 
  * *The model Evaluations Graph :*
 
  ![Logo](outcomes/modelsEvaluationsGraphs/gender_EvaluationsGraph.png)
+
+  *We can see that XGBRF_base_evaluation has the highest accuracy*
 
 
   * *The model Confusin Matrix :*
@@ -259,7 +281,7 @@ search_spaces ={
 
  ![Logo](outcomes/featuresImportanceGraphs/gender_featureImportanc.png)
 
- ----------------------------------------
+ ---------------------------------------
 
  ### *veh body Category as Classification Target ML :*
 

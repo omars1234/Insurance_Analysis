@@ -1,50 +1,50 @@
 {
     "ADAboost_evaluation_preds": {
-        "accuracy": 61.0,
-        "precision": 59.0,
-        "recall": 82.0,
-        "f1": 68.0
+        "accuracy": 0.61,
+        "precision": 0.547,
+        "recall": 0.445,
+        "f1": 0.49
     },
     "GBOOST_evaluation_preds": {
-        "accuracy": 49.0,
+        "accuracy": 0.578,
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0.0
     },
     "XGBRF_evaluation_preds": {
-        "accuracy": 62.0,
-        "precision": 66.0,
-        "recall": 54.0,
-        "f1": 59.0
+        "accuracy": 0.578,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
     },
     "RF_evaluation_preds": {
-        "accuracy": 49.0,
+        "accuracy": 0.578,
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0.0
     },
     "rf_base_evaluation": {
-        "accuracy": 64.0,
-        "precision": 66.0,
-        "recall": 61.0,
-        "f1": 63.0
+        "accuracy": 0.619,
+        "precision": 0.563,
+        "recall": 0.43,
+        "f1": 0.488
     },
     "ADAboost_base_evaluation": {
-        "accuracy": 62.0,
-        "precision": 65.0,
-        "recall": 57.99999999999999,
-        "f1": 61.0
+        "accuracy": 0.631,
+        "precision": 0.592,
+        "recall": 0.404,
+        "f1": 0.48
     },
     "XGBRF_base_evaluation": {
-        "accuracy": 63.0,
-        "precision": 66.0,
-        "recall": 60.0,
-        "f1": 63.0
+        "accuracy": 0.635,
+        "precision": 0.606,
+        "recall": 0.387,
+        "f1": 0.472
     },
     "GBOOST_base_evaluation": {
-        "accuracy": 64.0,
-        "precision": 66.0,
-        "recall": 60.0,
-        "f1": 63.0
+        "accuracy": 0.63,
+        "precision": 0.596,
+        "recall": 0.383,
+        "f1": 0.466
     }
 }

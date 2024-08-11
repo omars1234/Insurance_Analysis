@@ -1,32 +1,32 @@
 {
     "best_AdaBoostClassifier": {
-        "learning_rate": 0.020099719242159884,
-        "n_estimators": "5"
-    },
-    "best_GradientBoostingClassifier": {
-        "learning_rate": 0.6886508715982946,
-        "max_depth": "2",
-        "max_features": "1",
-        "min_samples_leaf": 0.9955440767962512,
-        "min_samples_split": 0.9589077721973422,
-        "n_estimators": "2",
-        "subsample": 0.9084438107809931
-    },
-    "best_RandomForestClassifier": {
-        "max_depth": "4",
-        "min_samples_leaf": 0.9833539733372629,
-        "min_samples_split": 0.8649795367245253,
+        "learning_rate": 0.6980202862381691,
         "n_estimators": "4"
     },
+    "best_GradientBoostingClassifier": {
+        "learning_rate": 0.44939890955077,
+        "max_depth": "2",
+        "max_features": "1",
+        "min_samples_leaf": 0.8003875553613109,
+        "min_samples_split": 0.8439286010333,
+        "n_estimators": "4",
+        "subsample": 0.8996212751286307
+    },
+    "best_RandomForestClassifier": {
+        "max_depth": "1",
+        "min_samples_leaf": 0.8931513856547066,
+        "min_samples_split": 0.8331880847658878,
+        "n_estimators": "5"
+    },
     "best_XGBRFClassifier": {
-        "colsample_bynode": 0.7854177850053826,
-        "colsample_bytree": 0.6041962352568229,
-        "learning_rate": 0.6306886363782872,
+        "colsample_bynode": 0.8133174840868406,
+        "colsample_bytree": 0.6056282617334949,
+        "learning_rate": 0.2069408298407509,
         "max_depth": "4",
-        "n_estimators": "1",
-        "num_parallel_tree": "1",
+        "n_estimators": "5",
+        "num_parallel_tree": "0",
         "reg_alpha": 1.0,
-        "reg_lambda": 0.0,
-        "subsample": 0.6366131694108681
+        "reg_lambda": 1.0,
+        "subsample": 0.6636948915972197
     }
 }
