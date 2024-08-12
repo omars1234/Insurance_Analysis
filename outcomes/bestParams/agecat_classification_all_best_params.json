@@ -1,0 +1,31 @@
+{
+    "best_AdaBoostClassifier": {
+        "learning_rate": 0.1889194086607892,
+        "n_estimators": "1"
+    },
+    "best_GradientBoostingClassifier": {
+        "learning_rate": 0.3364436253989256,
+        "max_depth": "1",
+        "max_features": "1",
+        "min_samples_leaf": 0.8583514673269187,
+        "min_samples_split": 0.8597914258798859,
+        "n_estimators": "5",
+        "subsample": 0.8644227286339029
+    },
+    "best_RandomForestClassifier": {
+        "max_depth": "5",
+        "min_samples_leaf": 0.8324673304415906,
+        "min_samples_split": 0.9343936757027884,
+        "n_estimators": "1"
+    },
+    "best_XGBRFClassifier": {
+        "colsample_bynode": 0.593346066844751,
+        "colsample_bytree": 0.7233777312143712,
+        "learning_rate": 0.6741564954926578,
+        "max_depth": "0",
+        "n_estimators": "3",
+        "reg_alpha": 0.0,
+        "reg_lambda": 0.0,
+        "subsample": 0.7517903519814326
+    }
+}

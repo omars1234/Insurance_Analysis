@@ -1,0 +1,26 @@
+{
+    "ADAboost_evaluation_preds": {
+        "accuracy": 0.204
+    },
+    "GBOOST_evaluation_preds": {
+        "accuracy": 0.156
+    },
+    "XGBRF_evaluation_preds": {
+        "accuracy": 0.33
+    },
+    "RF_evaluation_preds": {
+        "accuracy": 0.16
+    },
+    "rf_base_evaluation": {
+        "accuracy": 0.435
+    },
+    "ADAboost_base_evaluation": {
+        "accuracy": 0.274
+    },
+    "XGBRF_base_evaluation": {
+        "accuracy": 0.287
+    },
+    "GBOOST_base_evaluation": {
+        "accuracy": 0.301
+    }
+}
