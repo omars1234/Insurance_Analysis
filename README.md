@@ -245,25 +245,12 @@ search_spaces ={
 
 
 
-<table>
-  <tr>
-     <td>model Evaluations Graph</td>
-     <td>Model Features Importance Graphs</td>
-  </tr>
-  <tr>
-    <td><img src="outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png" width=470 height=400></td>
-    <td><img src="outcomes/featuresImportanceGraphs/claims_featureImportanc.png" width=470 height=400></td>
-  </tr>
- </table>
+ ---------------
 
- * *The model Evaluations Graph :*
+ model Evaluations Graph             |  Model Features Importance Graphs
+:-------------------------:|:-------------------------:
+ ![Logo](outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png)  |   ![Logo](outcomes/featuresImportanceGraphs/claims_featureImportanc.png)
 
- ![Logo](outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png)
-
-
- * *The Model Features Importance Graphs :*
-
- ![Logo](outcomes/featuresImportanceGraphs/claims_featureImportanc.png)
 
 
 ---------------------------------------
@@ -273,26 +260,20 @@ search_spaces ={
 * *The best model was XGBRFRegressor() with the base parameters*
 
 
- * *The model Evaluations Graph :*
 
- ![Logo](outcomes/modelsEvaluationsGraphs/gender_EvaluationsGraph.png)
+model Evaluations Graph             |  model Confusin Matrix
+:-------------------------:|:-------------------------:
+![Logo](outcomes/modelsEvaluationsGraphs/gender_EvaluationsGraph.png)  |  ![Logo](outcomes/confusionMatrixGraphs/gender_confusion_matrixPlot.png)
 
-  *We can see that XGBRF_base_evaluation has the highest accuracy*
-
-
-  * *The model Confusin Matrix :*
-
- ![Logo](outcomes/confusionMatrixGraphs/gender_confusion_matrixPlot.png)
+ 
 
 
- * *The Model ROC curve Graphs :*
+Model ROC curve Graphs             |  Model Features Importance Graphs
+:-------------------------:|:-------------------------:
+ ![Logo](outcomes/ROCcurveGraphs/gender_ROCcurveGraphs.png)  |   ![Logo](outcomes/featuresImportanceGraphs/gender_featureImportanc.png)
 
- ![Logo](outcomes/ROCcurveGraphs/gender_ROCcurveGraphs.png)
 
 
-* *The Model Features Importance Graphs :*
-
- ![Logo](outcomes/featuresImportanceGraphs/gender_featureImportanc.png)
 
  ---------------------------------------
 
