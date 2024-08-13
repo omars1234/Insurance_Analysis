@@ -5,10 +5,14 @@
 
 ## *Author  [Omar Soub](https://github.com/omars1234)*
 
+[](https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis)
+
 ## *Overview*
 
 
 *In this Project ,we will use Python Language and find the best Machine Learning Models with hypert parameter tuning for classificationa and regression problems*
+
+* *For detailed data analysis , you can see [https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis](https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis) where we have aplplied deep Analysis using R-Programming ,or you can access the project online on Rpubs Web [*AutoMobilePricesAnalysis-http://rpubs.com/omars/1207895*](http://rpubs.com/omars/1208635)* 
 
 ## *Table of Contents*
 
@@ -102,11 +106,11 @@ AUTO_INSURANCE/
 ├── outcomes/
 |   ├── bestModels
 |   ├── bestParams
+|   ├── ConfusionMatrixGraphs 
 |   ├── featuresImportanceGraphs
-|   ├── ConfusionMatrixGraphs
-|   ├── ROCcurveGraphs
-|   ├── modelsEvaluationsGraphs
 |   ├── modelsEvaluations
+|   ├── modelsEvaluationsGraphs
+|   ├── ROCcurveGraphs
 |
 |
 ├── README.md
@@ -310,16 +314,21 @@ search_spaces ={
  ----------------------------------------
 
 
+* *For detailed data analysis , you can see [https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis](https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis) where we have aplplied deep Analysis using R-Programming ,or you can access the project online on Rpubs Web [*AutoMobilePricesAnalysis-http://rpubs.com/omars/1207895*](http://rpubs.com/omars/1208635)* 
 
 
 
 
+## *Feedback*
 
+*If you have any feedback, please reach out to us at omars.soub@gmail.com*
 
+## 🔗 Links
 
+[*my github page-https://github.com/omars1234*](https://github.com/omars1234)
 
+## *🛠 Skills*
+*python, R, SQL ,PowerBi ,Tableaue*
 
-
-👩‍💻 I'm currently working on...
 
 
