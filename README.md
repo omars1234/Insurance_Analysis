@@ -243,6 +243,19 @@ search_spaces ={
 "n_estimators": "3"
 ```
 
+
+
+<table>
+  <tr>
+     <td>model Evaluations Graph</td>
+     <td>Model Features Importance Graphs</td>
+  </tr>
+  <tr>
+    <td><img src="outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png" width=300 height=400></td>
+    <td><img src="outcomes/featuresImportanceGraphs/claims_featureImportanc.png" width=300 height=400></td>
+  </tr>
+ </table>
+
  * *The model Evaluations Graph :*
 
  ![Logo](outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png)
