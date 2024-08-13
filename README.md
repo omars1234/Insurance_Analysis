@@ -242,12 +242,7 @@ search_spaces ={
 "learning_rate": 0.4465183341501904,
 "n_estimators": "3"
 ```
-
-
-
- ---------------
-
- model Evaluations Graph             |  Model Features Importance Graphs
+ *model Evaluations Graph*             |  *Model Features Importance Graphs*
 :-------------------------:|:-------------------------:
  ![Logo](outcomes/modelsEvaluationsGraphs/claims_EvaluationsGraph.png)  |   ![Logo](outcomes/featuresImportanceGraphs/claims_featureImportanc.png)
 
@@ -258,45 +253,72 @@ search_spaces ={
 ### *gender Category as Classification Target ML :*
 
 * *The best model was XGBRFRegressor() with the base parameters*
+```bash
+"best_XGBRFClassifier": {
+        "colsample_bynode": 0.593346066844751,
+        "colsample_bytree": 0.7233777312143712,
+        "learning_rate": 0.6741564954926578,
+        "max_depth": "0",
+        "n_estimators": "3",
+        "reg_alpha": 0.0,
+        "reg_lambda": 0.0,
+        "subsample": 0.7517903519814326
+    }
+```
 
-
-
-model Evaluations Graph             |  model Confusin Matrix
+*model Evaluations Graph*            |  *model Confusin Matrix*
 :-------------------------:|:-------------------------:
 ![Logo](outcomes/modelsEvaluationsGraphs/gender_EvaluationsGraph.png)  |  ![Logo](outcomes/confusionMatrixGraphs/gender_confusion_matrixPlot.png)
 
  
-
-
-Model ROC curve Graphs             |  Model Features Importance Graphs
+*Model ROC curve Graphs*             |  *Model Features Importance Graphs*
 :-------------------------:|:-------------------------:
  ![Logo](outcomes/ROCcurveGraphs/gender_ROCcurveGraphs.png)  |   ![Logo](outcomes/featuresImportanceGraphs/gender_featureImportanc.png)
-
-
 
 
  ---------------------------------------
 
  ### *veh body Category as Classification Target ML :*
 
- * *The best model model was XGBRFRegressor() with the below parameters :*
+ * *The best model model was RandomForestClassifier() with the default parameters:*
 
-```bash
-{   'colsample_bynode': np.float64(0.8242226665175306),
-    'colsample_bytree': np.float64(0.8029099521062315),
-    'learning_rate': np.float64(0.25726849104466526),
-    'max_depth': np.int64(4),
-    'n_estimators': np.int64(1),
-    'num_parallel_tree': np.int64(0),
-    'reg_alpha': np.float64(1.0),
-    'reg_lambda': np.float64(1.0),
-    'subsample': np.float64(0.7181215732378148)
-}
-```
-* *The Model Features Importance Graphs :*
 
- ![Logo](outcomes/featuresImportanceGraphs/veh_body_featureImportanc.png)
+*model Evaluations Graph*             |  *Model Features Importance Graphs*  
+:-------------------------:|:-------------------------:
+![Logo](outcomes/modelsEvaluationsGraphs/Veh_body_EvaluationsGraph.png)  |  ![Logo](outcomes/featuresImportanceGraphs/Veh_body_featureImportanc.png)
 
+*model Confusin Matrix*
+![Logo](outcomes/confusionMatrixGraphs/Veh_body_confusion_matrixPlot.png)
+ 
+
+ ---------------------------------------
+
+ ### *area Category as Classification Target ML :*
+
+ * *The best model model was RandomForestClassifier() with the default parameters:*
+
+
+*model Evaluations Graph*             |  *Model Features Importance Graphs*  
+:-------------------------:|:-------------------------:
+![Logo](outcomes/modelsEvaluationsGraphs/area_EvaluationsGraph.png)  |  ![Logo](outcomes/featuresImportanceGraphs/area_featureImportanc.png)
+
+*model Confusin Matrix*
+![Logo](outcomes/confusionMatrixGraphs/area_confusion_matrixPlot.png)
+ 
+ ----------------------------------------
+
+ ### *age category Category as Classification Target ML :*
+
+ * *The best model model was RandomForestClassifier() with the default parameters:*
+
+
+*model Evaluations Graph*             |  *Model Features Importance Graphs*  
+:-------------------------:|:-------------------------:
+![Logo](outcomes/modelsEvaluationsGraphs/agecat_EvaluationsGraph.png)  |  ![Logo](outcomes/featuresImportanceGraphs/agecat_featureImportanc.png)
+
+*model Confusin Matrix*
+![Logo](outcomes/confusionMatrixGraphs/agecat_confusion_matrixPlot.png)
+ 
  ----------------------------------------
 
 
