@@ -285,10 +285,10 @@ search_spaces ={
 
 *model Evaluations Graph*             |  *Model Features Importance Graphs*  
 :-------------------------:|:-------------------------:
-![Logo](outcomes/modelsEvaluationsGraphs/Veh_body_EvaluationsGraph.png)  |  ![Logo](outcomes/featuresImportanceGraphs/Veh_body_featureImportanc.png)
+![Logo](outcomes/modelsEvaluationsGraphs/veh_body_EvaluationsGraph.png)  |  ![Logo](outcomes/featuresImportanceGraphs/veh_body_featureImportanc.png)
 
 *model Confusin Matrix*
-![Logo](outcomes/confusionMatrixGraphs/Veh_body_confusion_matrixPlot.png)
+![Logo](outcomes/confusionMatrixGraphs/veh_body_confusion_matrixPlot.png)
  
 
  ---------------------------------------
