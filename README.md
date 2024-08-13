@@ -252,19 +252,7 @@ search_spaces ={
 
 ### *gender Category as Classification Target ML :*
 
-* *The best model was XGBRFRegressor() with the base parameters*
-```bash
-"best_XGBRFClassifier": {
-        "colsample_bynode": 0.593346066844751,
-        "colsample_bytree": 0.7233777312143712,
-        "learning_rate": 0.6741564954926578,
-        "max_depth": "0",
-        "n_estimators": "3",
-        "reg_alpha": 0.0,
-        "reg_lambda": 0.0,
-        "subsample": 0.7517903519814326
-    }
-```
+* *The best model model was RandomForestClassifier() with the default parameters:*
 
 *model Evaluations Graph*            |  *model Confusin Matrix*
 :-------------------------:|:-------------------------:
