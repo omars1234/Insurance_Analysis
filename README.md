@@ -1,7 +1,5 @@
 # *Auto Mobile Insurance MachineLearning notebooks Using Python Language*
 
-👩‍💻 I'm currently working on...
-
 
 ## *Author  [Omar Soub](https://github.com/omars1234)*
 
