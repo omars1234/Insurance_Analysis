@@ -1,5 +1,7 @@
 # *Auto Mobile Insurance MachineLearning notebooks Using Python Language*
 
+👩‍💻 I'm currently working on...
+
 
 ## *Author  [Omar Soub](https://github.com/omars1234)*
 
@@ -310,6 +312,8 @@ search_spaces ={
 ![Logo](outcomes/confusionMatrixGraphs/agecat_confusion_matrixPlot.png)
  
  ----------------------------------------
+
+ 👩‍💻 I'm currently working on...
 
 
 * *For detailed data analysis , you can see [https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis](https://github.com/omars1234/R-Programming_AutoMobileInusranceAnalysis) where we have aplplied deep Analysis using R-Programming ,or you can access the project online on Rpubs Web [*AutoMobilePricesAnalysis-http://rpubs.com/omars/1207895*](http://rpubs.com/omars/1208635)* 
